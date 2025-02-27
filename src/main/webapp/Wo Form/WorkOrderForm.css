@@ -1,0 +1,107 @@
+.woIncluder-parentdiv div{
+    display: flex;
+    height: 50px;
+    width: 600px;
+    /* background-color: var(--bs-warning); */
+}
+.field{
+    margin-top: 15px;
+}
+.woIncluder-parentdiv div label{
+    font-size: 25px;
+} 
+.i{
+    align-self: center;
+    margin-left: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+    /* background-color: var(--bs-light); */
+    background-color: #d5d1defe;
+    font-size: 27px;
+    width: 250px;
+}
+.i:focus{
+    background-color: var(--bs-warning-bg-subtle);
+}
+.ordername-input{
+    margin-left: 118px;
+}
+.desc-input{
+    margin-left: 120px;
+}
+.client-input{
+    margin-left: 183px;
+    font-size: 22px;
+    width: 250px;
+    height: 44px;
+    background-color: #d5d1defe;
+/*                box-shadow: 0.6px 0px 1px 0.1px;*/
+    color:black;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.client-input:hover{
+    background-color: #d5d1defe;
+    color:black;
+    border: 1px solid black;
+}
+.client-input:active{
+    transition: none;
+    transition-duration: 0s;
+    transition-delay: unset;
+    background-color: #d5d1defe;
+    color:black;
+
+}
+.li-item-b{
+    font-size: 20px;
+    border-bottom: 1px solid #d5d1defe;
+}
+
+.li-item-b:hover{
+    background-color: var(--bs-warning-bg-subtle);
+    color: black;  
+}
+.li-item-b:active{
+    background-color: var(--bs-warning-bg-subtle);
+    color: black;  
+}
+
+.dropdown-menu-assist{
+    max-height: 400px;
+    width: 250px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+.dropdown-menu-assist::-webkit-scrollbar{
+    width: 0.5rem;  
+    height: 0.5rem;
+}
+
+.dropdown-menu-assist::-webkit-scrollbar-thumb{
+    border-radius: 0.5rem;
+    background-color: #d5d1defe;
+    visibility: visible;
+}
+.status{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.open-btn,.rp-btn,.closed-btn{
+    width: 110px;
+    box-shadow: 0.6px 0px 1px 0.1px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #d5d1defe;
+}
+/* .trans-btn1,.trans-btn2:active{
+    background-color: var(--bs-warning);
+} */
+.open-btn{
+    margin-left: 165px;
+    margin-right: 5px;
+}
+.rp-btn{
+    margin-right: 5px;
+}

@@ -1,0 +1,372 @@
+.body {
+    background-color: var(--bs-light);
+}
+
+.nav{
+    height:38px; 
+    padding: 0;
+    border-bottom: 2px solid black; 
+    background-color: #d5d1defe; 
+    position: sticky; 
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.navbar-brand{
+    font-size: 20px;
+}
+
+.pageparent{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.table-form-page{
+    display: flex;
+    height: 94.5%;
+}
+
+.divider-table-form-page{
+    width: 2px;
+    background-color: grey;
+}
+.divider-table-form-page:hover{
+    cursor:col-resize;
+}
+
+
+/*.wo{
+    margin-top: 20px;
+}*/
+.wo-label-div{
+    font-size: 20px;
+    padding-left:10px;
+}
+
+.wo-table{
+    background-color: var(--bs-light-border-subtle);
+    /* LOGIC FOR VERTICAL SCROLLBAR OF TABLE */
+    width: 100%; /* Ensure the table takes up 100% width of its container */
+    border-radius: 50px;
+}
+
+.wo-table-parent{
+    /* position: sticky;  Understand what these commands do exactly and are applied in what circumstances ???
+    top: 0;
+    width: 100%; */
+    /* LOGIC FOR VERTICAL SCROLLBAR OF TABLE */
+    max-height: 240px; /* Set the maximum height for the container */
+    width: 520px;
+    overflow-y: auto;
+    margin: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.wo-table-parent::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.wo-table-parent::-webkit-scrollbar-thumb{
+    border-radius: 0.5rem;
+    background-color: #d5d1defe;
+    visibility: visible;
+}
+
+.wo-table tr th{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #d5d1defe;
+    border-bottom: 2px solid black;
+}
+
+.wo-table tr:hover td{
+    background-color: var(--bs-warning-bg-subtle);
+    cursor:pointer;
+}
+
+
+
+.wo-btn{
+    width: 110px;
+    height: 39px;
+    font-size: 19px;
+    background-color: var(--bs-warning);
+    border:none;
+    border-radius: 10px;
+    margin-left: 404px;
+}
+.wo-btn:hover{
+    background-color: var(--bs-warning);
+    cursor: pointer;
+}
+.wo-btn:active{
+    transition-timing-function: ease;
+    /*transition-delay: 1s;*/
+}
+
+/*.jobs{
+    margin-top: 20px;
+}*/
+.jobs-label-div{
+    font-size: 20px;
+    padding-left:10px;
+}
+
+.jobs-table{
+    background-color: var(--bs-light-border-subtle);
+    /* LOGIC FOR VERTICAL SCROLLBAR OF TABLE */
+    width: 100%; /* Ensure the table takes up 100% width of its container */
+    border-radius: 50px;
+}
+
+.jobs-table-parent{
+    /* position: sticky;  Understand what these commands do exactly and are applied in what circumstances ???
+    top: 0;
+    width: 100%; */
+    /* LOGIC FOR VERTICAL SCROLLBAR OF TABLE */
+    height: 230px;
+    max-height: 230px; /* Set the maximum height for the container */
+    width: 520px;
+    overflow-y: auto;
+    margin: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.InstructioninIR{
+    margin-top: 57px;
+    padding: 0 0 0 130px; 
+    background-color: white;
+}
+
+.jobs-table-parent::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.jobs-table-parent::-webkit-scrollbar-thumb{
+    border-radius: 0.5rem;
+    background-color: #d5d1defe;
+    visibility: visible;
+}
+    
+.jobs-table tr th{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #d5d1defe;
+    border-bottom: 2px black solid;
+}
+.jobs-table tr:hover td{
+    background-color: var(--bs-warning-bg-subtle);
+    cursor:pointer;
+}
+
+.jobs-btn{
+    width: 110px;
+    height: 39px;
+    font-size: 19px;
+    background-color: var(--bs-warning);
+    border:none;
+    border-radius: 10px;
+    margin-left: 404px;
+}
+.jobs-btn:hover{
+    background-color: var(--bs-warning);
+}
+.jobs-btn:active{
+    transition-timing-function: ease;
+    transition-delay: 1s;
+}
+
+.wo-jobs{
+    flex:1;
+    background-color: var(--bs-light);
+}
+.details-newField{
+    flex:1.95;
+}
+
+.details-newField-support{
+    background-color: var(--bs-light);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*.form-details{
+    background-color: #d5d1defe;
+    width: 10px;
+    height: 10px;
+}*/
+
+/* .details-divider-newform{
+    
+} */
+.h-line{
+    margin: 0;
+}
+.update-existing-form{
+    background-color: var(--bs-warning-bg-subtle);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.LoadIR-btn-span{
+    margin-right: 290px;
+}
+.LoadIR-btn{
+    margin-left: 5px;
+    border-radius: 2px; 
+    font-size: 18px;
+    background-color: #d5d1defe;
+}
+.title-span{
+    margin-left: 15px;
+    width: 400px;
+}
+
+.FormPositioningdiv{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 620px;
+}
+
+
+.newform{
+    width: 730px;
+    height: 600px;
+    background-color: var(--bs-light);
+}
+
+.FormDetailsdiv{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 600px;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-color: var(--bs-light);
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.FormDetailsdiv-label{
+    height: 34px;
+    background-color: #d5d1defe;
+    border-radius: 2px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    /*border: 1px solid black;*/
+    width: 257px;
+}
+
+/*.myForm{
+    margin: 15px 0 0 150px;
+    width: 700px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bs-light);
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items:center;
+    justify-content:start;
+}
+.myForm div{
+    display: flex;
+    height: 50px;
+    width: 600px;
+     background-color: var(--bs-warning); 
+}
+.field{
+    margin-top: 15px;
+}
+.myForm div label{
+    font-size: 25px;
+}
+.purity-btn-div{
+    width: 70px;
+    margin-top: 4px;
+}
+.purity-btn{
+    margin-right: 5px;
+    font-size: 18px;
+    width: 50px;
+    height: 30px;
+    box-shadow: 0.6px 0px 1px 0.1px;
+    border-radius: 5px;
+}
+.purity-btn-one{
+    margin-left: 280px;
+}
+.i{
+    align-self: center;
+    margin-left: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+     background-color: var(--bs-light); 
+    background-color: #d5d1defe;
+    font-size: 27px;
+    width: 250px;
+}
+.i:focus{
+    background-color: var(--bs-warning-bg-subtle);
+}
+.purity-input{
+    margin-left: 182px;
+}
+.weight-input{
+    margin-left: 166px;
+}
+.datetime-input{
+    margin-left: 145px;
+}
+.desc-input{
+    margin-left: 120px;
+}
+.labour-input{
+    margin-left: 143px;
+}
+
+.transtype{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.trans-btn1,.trans-btn2{
+    width: 110px;
+    box-shadow: 0.6px 0px 1px 0.1px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #d5d1defe;
+}
+ .trans-btn1,.trans-btn2:active{
+    background-color: var(--bs-warning);
+} 
+.trans-btn1{
+    margin-left: 65px;
+    margin-right: 10px;
+}
+.save-btn-div{
+    width: 650px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.save-btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--bs-warning);
+    border:none;
+}*/
+
